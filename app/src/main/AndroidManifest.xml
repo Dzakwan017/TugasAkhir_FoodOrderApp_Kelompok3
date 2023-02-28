@@ -12,16 +12,19 @@
         android:theme="@style/Theme.FoodOrderApp"
         tools:targetApi="31">
         <activity
-            android:name=".FoodDomain"
+            android:name=".Activity.ShowDetailActivity"
             android:exported="false" />
         <activity
-            android:name=".CategoryDomain"
+            android:name=".Domain.FoodDomain"
             android:exported="false" />
         <activity
-            android:name=".PopularAdaptor"
+            android:name=".Domain.CategoryDomain"
             android:exported="false" />
         <activity
-            android:name=".CategoryAdapter"
+            android:name=".Adapter.PopularAdaptor"
+            android:exported="false" />
+        <activity
+            android:name=".Adapter.CategoryAdapter"
             android:exported="false" />
         <activity
             android:name=".Activity.MainActivity"
