@@ -3,8 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/zevia/Documents/TugasAkhir_FoodOrderApp_Kelompok3/app/src/main/res/drawable/bulat.xml" value="0.1235" />
+        <entry key="..\:/Users/zevia/Documents/TugasAkhir_FoodOrderApp_Kelompok3/app/src/main/res/drawable/home_rctl.xml" value="0.1235" />
         <entry key="..\:/Users/zevia/Documents/TugasAkhir_FoodOrderApp_Kelompok3/app/src/main/res/drawable/search_bg.xml" value="0.123" />
-        <entry key="..\:/Users/zevia/Documents/TugasAkhir_FoodOrderApp_Kelompok3/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/zevia/Documents/TugasAkhir_FoodOrderApp_Kelompok3/app/src/main/res/layout/activity_intro.xml" value="0.25" />
+        <entry key="..\:/Users/zevia/Documents/TugasAkhir_FoodOrderApp_Kelompok3/app/src/main/res/layout/activity_main.xml" value="0.1" />
       </map>
     </option>
   </component>

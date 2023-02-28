@@ -6,8 +6,9 @@
     android:layout_height="match_parent"
     tools:context=".Activity.MainActivity">
 
-<<<<<<< HEAD
+
     <ScrollView
+        android:id="@+id/scrollView2"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -31,7 +32,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="32dp"
                     android:layout_marginTop="32dp"
-                    android:text="Hi Mutiara"
+                    android:text="Hi Aldo!"
                     android:textColor="#6144F4"
                     android:textSize="24dp"
                     android:textStyle="bold"
@@ -62,26 +63,91 @@
                     app:layout_constraintTop_toTopOf="@+id/namaProfile"
                     app:srcCompat="@drawable/profile"
                     tools:ignore="MissingConstraints" />
-
                 <EditText
                     android:id="@+id/editTextTextPersonName"
                     android:layout_width="0dp"
-                    android:layout_height="wrap_content"
+                    android:layout_height="50dp"
                     android:layout_marginStart="32dp"
                     android:layout_marginTop="16dp"
                     android:layout_marginEnd="32dp"
-                    android:backgroundTint="#E2DCFE"
+                    android:background="@drawable/search_bg"
                     android:ems="10"
                     android:inputType="textPersonName"
-                    android:text="Name"
+                    android:hint="Find Your Food"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/txt2" />
+                    app:layout_constraintTop_toBottomOf="@+id/txt2"
+                    android:drawableStart="@drawable/search"
+                    android:drawablePadding="10dp"
+                    android:textStyle="italic"
+                    android:paddingStart="18dp"
+
+                    />
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="170dp"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="32dp"
+                    android:background="@drawable/home_rctl"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName">
+
+                    <TextView
+                        android:id="@+id/txtbanner"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Special Offers"
+                        android:textColor="#d6d6d6"
+
+                        android:textStyle="bold"
+                        app:layout_constraintBottom_toTopOf="@+id/txtbanner2"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.727"
+                        tools:layout_editor_absoluteX="10dp"
+                        tools:ignore="MissingConstraints" />
+
+                    <TextView
+                        android:id="@+id/txtbanner2"
+                        android:layout_width="0dp"
+                        android:layout_height="80dp"
+                        android:layout_marginLeft="10dp"
+                        android:text="Make $77 order and get  caviar Roll"
+                        android:textColor="@color/white"
+                        android:textSize="18dp"
+                        android:textStyle="bold"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toStartOf="@+id/burgerBanner2"
+                        app:layout_constraintHorizontal_bias="1.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.7" />
+
+                    <ImageView
+                        android:id="@+id/burgerBanner1"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        app:srcCompat="@drawable/burger"
+                        tools:ignore="MissingConstraints"
+                        tools:layout_editor_absoluteX="231dp"
+                        tools:layout_editor_absoluteY="70dp" />
+
+                    <ImageView
+                        android:id="@+id/burgerBanner2"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        app:srcCompat="@drawable/burger"
+                        tools:ignore="MissingConstraints"
+                        tools:layout_editor_absoluteX="231dp"
+                        tools:layout_editor_absoluteY="16dp" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
             </androidx.constraintlayout.widget.ConstraintLayout>
 
         </LinearLayout>
     </ScrollView>
 
-=======
->>>>>>> 2c2f5a72a53e903579e3bf10e2a8e8403ab2aa3d
 </androidx.constraintlayout.widget.ConstraintLayout>

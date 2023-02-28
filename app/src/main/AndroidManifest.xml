@@ -18,18 +18,18 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
-        <activity
-            android:name=".FoodDomain"
-            android:exported="false" />
-        <activity
-            android:name=".CategoryDomain"
-            android:exported="false" />
-        <activity
-            android:name=".PopularAdaptor"
-            android:exported="false" />
-        <activity
-            android:name=".CategoryAdapter"
-            android:exported="false" />
+<!--        <activity-->
+<!--            android:name=".FoodDomain"-->
+<!--            android:exported="false" />-->
+<!--        <activity-->
+<!--            android:name=".CategoryDomain"-->
+<!--            android:exported="false" />-->
+<!--        <activity-->
+<!--            android:name=".PopularAdaptor"-->
+<!--            android:exported="false" />-->
+<!--        <activity-->
+<!--            android:name=".CategoryAdapter"-->
+<!--            android:exported="false" />-->
         <activity
             android:name=".Activity.MainActivity"
             android:exported="true">
