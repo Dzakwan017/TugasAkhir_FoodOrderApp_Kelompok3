@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".Activity.MainActivity">
 
+<<<<<<< HEAD
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -75,10 +76,12 @@
                     android:text="Name"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/txt2"/>
+                    app:layout_constraintTop_toBottomOf="@+id/txt2" />
             </androidx.constraintlayout.widget.ConstraintLayout>
 
         </LinearLayout>
     </ScrollView>
 
+=======
+>>>>>>> 2c2f5a72a53e903579e3bf10e2a8e8403ab2aa3d
 </androidx.constraintlayout.widget.ConstraintLayout>
